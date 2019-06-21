@@ -49,7 +49,7 @@ if (isset($_POST['btn_valider'])) {
 	$id=$_POST['id'];
 	$qte=$_POST['qte'];
 	$_SESSION['panier'][]=['id'=>$id, 'qte'=>$qte];
-	header("location:index.phtml?ajout_ok=1");
+	header("location:index.php?ajout_ok=1");
 }
 
  ?>
