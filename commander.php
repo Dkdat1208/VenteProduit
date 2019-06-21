@@ -9,7 +9,7 @@
 	//differnce entre include et include_once
 include_once("source_data.php");
 if (sizeof($_SESSION['panier'])==0) {
-	header("location:index.php");
+	header("location:index.phtml");
 }
 
  ?>
